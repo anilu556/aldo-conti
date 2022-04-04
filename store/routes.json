@@ -201,6 +201,9 @@
   },
   "store.custom#tips-san-valentin": {
     "path": "/blog/tips/san-valentin"
+  },
+  "store.custom#unete":{
+    "path": "/unete-al-equipo"
   }
 
 }

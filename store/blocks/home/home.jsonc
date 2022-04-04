@@ -216,8 +216,8 @@
   "responsive-layout.desktop": {
     "children": [
       "rich-text#top-bar",
-      "flex-layout.row#video-banner-home"
-     // "list-context.image-list#principal-slider-desk"
+      "list-context.image-list#principal-slider-desk"
+      // "flex-layout.row#video-banner-home"
     ]
   },
   "flex-layout.row#video-banner-home": {
