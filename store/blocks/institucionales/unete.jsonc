@@ -1,6 +1,6 @@
 {
     "store.custom#unete": {
-        "blocks": [
+        "children": [
           "flex-layout.row#unete"
         ]
     },
@@ -18,7 +18,7 @@
         "children": [
           "rich-text#unete-titulo",
           "rich-text#unete-parrafo-1",
-          "flex-layout.row#form-unete"
+          "flex-layout.row#form"
         ],
         "props": {
           "preventVerticalStretch": true
@@ -34,21 +34,27 @@
 
     "rich-text#unete-parrafo-1": {
         "props": {
-            "blockClass": "vcorp-parrafo",
+            "blockClass": "unete-parrafo",
             "text": "**Llena el formulario**"
         }
     },
 
-    "flex-layout.row#form-unete": {
+    "flex-layout.row#form": {
         "children": [
-            "flex-layout.col#form-unete"
+            "flex-layout.col#form"
         ]
     },
 
-    "flex-layout.col#form-unete": {
+    "flex-layout.col#form": {
         "children": [
             "form#unete"
-        ]
+        ],
+        "props":{
+            "widht":"70%",
+            "blockClass":"colform",
+            "paddingLeft":10,
+            "paddingRight":10
+        }
     },
 
     "form#unete": {
@@ -66,18 +72,18 @@
             "form-input.text#escolaridad",
             "form-input.text#experiencia",
             "form-input.text#puesto",
-            "form-submit"
+            "form-submit#unete"
         ],
-        "blocks": ["form-success"]            
+        "blocks": ["form-success#unete"]            
     },
 
-    "form-success": {
+    "form-success#unete": {
         "children": [
-            "rich-text#successSubmit"
+            "rich-text#successSubmit-unete"
         ]
     },
 
-    "rich-text#successSubmit": {
+    "rich-text#successSubmit-unete": {
         "props": {
             "text": "La información fue enviada correctamente. Pronto nos pondremos en contacto contigo",
             "textAlignment": "CENTER",
@@ -148,7 +154,7 @@
         }
     },
 
-    "form-submit": {
+    "form-submit#unete": {
         "props": {
           "label": "Enviar"
         }
