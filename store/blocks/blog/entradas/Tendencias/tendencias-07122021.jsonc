@@ -11,6 +11,7 @@
             "flex-layout.row#blog-cuarto-bloque",
             "flex-layout.row#blog-quinto-bloque",
             "flex-layout.row#blog-sexto-bloque",
+            "flex-layout.row#blog-septimo-bloque",
             /*"flex-layout.row#blog-septimo-bloque"*/
             "flex-layout.row#recommended-entry"
             //"flex-layout.row#mas-notas"
