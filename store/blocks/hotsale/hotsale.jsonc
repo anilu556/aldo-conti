@@ -5,6 +5,7 @@
       //deshabilita video
       //"video#background-temporada-rebajas",
       //se agrega slider layout
+      //correccion sass
       "slider-layout#text-test",
       "rich-text#first-title-hotsale",
       "link.product#link-first-title",
