@@ -41,7 +41,8 @@
   "image#example": {
     "props": {
       "src": "assets/test.jpg",
-      "maxHeight": 400,
+      // "maxHeight": 400,
+      "heigth":"100%",
       "width":"100%"
     }
   },

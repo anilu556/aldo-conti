@@ -1937,3 +1937,8 @@ $ac-c8: #9D9D9D;
 :global(.vtex-rich-text-0-x-container--top-bar){
   background:#089d9d ;
 }
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--banner-hotsale)
+:global(.vtex-store-components-3-x-imageElement){
+  max-height: 100%!important;
+}
