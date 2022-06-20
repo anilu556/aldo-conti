@@ -1938,6 +1938,7 @@ $ac-c8: #9D9D9D;
   background:#089d9d ;
 }
 
+<<<<<<< HEAD
 
 // Unete
 :global(.vtex-flex-layout-0-x-flexRow--unetePage){
@@ -2005,4 +2006,9 @@ $ac-c8: #9D9D9D;
 :global(.vtex-flex-layout-0-x-flexRow--upload)
   :global(.vtex-button):hover{
     background-color: #303030;
+=======
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--banner-hotsale)
+:global(.vtex-store-components-3-x-imageElement){
+  max-height: 100%!important;
+>>>>>>> b6f19d5e81ec0d909587af758a98728c5cdfb3d7
 }

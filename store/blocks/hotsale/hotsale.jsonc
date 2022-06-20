@@ -1,8 +1,17 @@
 {
   "store.custom#hotsale": {
     "children": [
+<<<<<<< HEAD
       "list-context.image-list#principal-slider-hotsale",
       //"video#background-temporada-rebajas",
+=======
+      // "list-context.image-list#principal-slider-hotsale",
+      //deshabilita video
+      //"video#background-temporada-rebajas",
+      //se agrega slider layout
+      //correccion sass
+      "slider-layout#text-test",
+>>>>>>> b6f19d5e81ec0d909587af758a98728c5cdfb3d7
       "rich-text#first-title-hotsale",
       "link.product#link-first-title",
       "list-context.product-list#hotsale-products-1",
@@ -19,6 +28,45 @@
       "list-context.product-list#hotsale-products-3"
     ]
   },
+  //slider
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-hotsale"
+    },
+    "children": ["image#example","image#example1","image#example2"]
+  },
+
+  "image#example": {
+    "props": {
+      "src": "assets/test.jpg",
+      // "maxHeight": 400,
+      "heigth":"100%",
+      "width":"100%"
+    }
+  },
+  "image#example1": {
+    "props": {
+      "src": "assets/test.jpg",
+      "maxHeight": 400,
+      "width":"100%"
+    }
+  },
+  "image#example2": {
+    "props": {
+      "src": "assets/test.jpg",
+      "maxHeight": 400,
+      "width":"100%"
+    }
+  },
+  
+
   "flex-layout.row#temporada-rebajas-video": {
     "children": ["iframe#temporada-rebajas-video"],
     "props": {
