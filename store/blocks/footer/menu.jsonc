@@ -158,7 +158,8 @@
       "menu-item#footer-proveedores",
       "menu-item#footer-ventasCorporativas",
       "menu-item#footer-sucursales",
-      "menu-item#footer-codigoConti"
+      "menu-item#footer-codigoConti",
+      "menu-item#footer-unete"
     ]
   },
 
@@ -296,6 +297,22 @@
         "noFollow": false,
         "tagTitle": "Código Conti",
         "text": "Código Conti"
+      }
+    }
+  },
+  "menu-item#footer-unete":{
+    "props": {
+      "id": "menu-item-unete",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "uneteMenu",
+      "itemProps": {
+        "type": "external",
+        "href": "/unete-al-equipo",
+        "noFollow": false,
+        "tagTitle": "Únete al equipo",
+        "text": "Únete al equipo"
       }
     }
   },
