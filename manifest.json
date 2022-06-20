@@ -1,7 +1,7 @@
 {
   "vendor": "aldoconti",
   "name": "store-theme",
-  "version": "0.11.238",
+  "version": "0.11.239",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
