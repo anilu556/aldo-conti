@@ -1,8 +1,8 @@
 {
   "store.custom#hotsale": {
     "children": [
-      // "list-context.image-list#principal-slider-hotsale",
-      "video#background-temporada-rebajas",
+      "list-context.image-list#principal-slider-hotsale",
+      //"video#background-temporada-rebajas",
       "rich-text#first-title-hotsale",
       "link.product#link-first-title",
       "list-context.product-list#hotsale-products-1",

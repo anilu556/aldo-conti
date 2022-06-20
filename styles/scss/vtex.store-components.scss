@@ -1939,7 +1939,70 @@ $ac-c8: #9D9D9D;
 }
 
 
+// Unete
+:global(.vtex-flex-layout-0-x-flexRow--unetePage){
+  margin: 0 100px;
+}
 
+:global(.vtex-flex-layout-0-x-flexRow--formUnete){
+  margin: 0 300px;
+}
 
+:global(.vtex-flex-layout-0-x-flexRowContent--sexcivil), :global(.vtex-flex-layout-0-x-flexRowContent--dir), :global(.vtex-flex-layout-0-x-flexRowContent--escolaridad){
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sexcivil), :global(.vtex-flex-layout-0-x-flexRowContent--dir), :global(.vtex-flex-layout-0-x-flexRowContent--escolaridad){
+  justify-content: space-between;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--formUnete)
+:global(.vtex-input-prefix__group){
+  margin-bottom: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--formUnete)
+:global(.vtex-store-form-0-x-formSubmitContainer){
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
  
+:global(.vtex-flex-layout-0-x-flexRowContent--formUnete)
+  :global(.vtex-store-form-0-x-formSubmitButton)
+    :global(.vtex-button){
+      color: #ffffff;
+}
 
+:global(.vtex-flex-layout-0-x-flexRowContent--formUnete)
+  :global(.vtex-store-form-0-x-formSubmitButton)
+    :global(.vtex-button):hover{
+      background-color: #303030;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--escolaridad)
+  :global(.vtex-store-form-0-x-formSubmitButton)
+    :global(.vtex-button):hover{
+      background-color: #303030;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--escolaridad)
+  :global(.vtex-store-form-0-x-formSubmitButton)
+    :global(.vtex-button):hover{
+      color: #ffffff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--upload){
+  margin-top: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--upload)
+  :global(.vtex-button){
+    color: #ffffff;
+    background-color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--upload)
+  :global(.vtex-button):hover{
+    background-color: #303030;
+}

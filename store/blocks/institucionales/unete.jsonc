@@ -10,7 +10,7 @@
           "flex-layout.col#text-unete"
         ],
         "props": {
-          "blockClass": ["page-institucionales", "nuestras-marcas"]
+          "blockClass": [ "unetePage"]
         }
     },
       
@@ -35,129 +35,226 @@
     "rich-text#unete-parrafo-1": {
         "props": {
             "blockClass": "unete-parrafo",
-            "text": "**Llena el formulario**"
+            "text": "**Por favor llena el siguiente formulario:**"
         }
     },
 
     "flex-layout.row#form": {
         "children": [
             "flex-layout.col#form"
-        ]
+        ],
+        "props":{
+            "blockClass": "formUnete"
+        }
     },
 
     "flex-layout.col#form": {
         "children": [
-            "form#unete"
-        ],
-        "props":{
-            "widht":"70%",
-            "blockClass":"colform",
-            "paddingLeft":10,
-            "paddingRight":10
-        }
-    },
-
-    "form#unete": {
-        "props": {
-            "entity": "Unete",
-            "schema": "mdv1"
-        },
-        "children": [
-            "form-input.text#nombre",
-            "form-input.text#telefono",
-            "form-input.text#email",
-            "form-input.text#sexo",
-            "form-input.text#estadocivil",
-            "form-input.text#direccion",
-            "form-input.text#escolaridad",
-            "form-input.text#experiencia",
-            "form-input.text#puesto",
-            "form-submit#unete"
-        ],
-        "blocks": ["form-success#unete"]            
-    },
-
-    "form-success#unete": {
-        "children": [
-            "rich-text#successSubmit-unete"
+            "form#contacto"
         ]
     },
 
-    "rich-text#successSubmit-unete": {
-        "props": {
-            "text": "La información fue enviada correctamente. Pronto nos pondremos en contacto contigo",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
+    /*----------------- Inicio de Formulario--------------------*/
+      
+    
+    "form#contacto": {
+      "props": {
+        "entity": "datospost",
+        "schema": "datospost"
+      },
+      "children": [
+        "form-input.text#nombre",
+        "form-input.text#telcont",
+        "form-input.text#correo",
+        "flex-layout.row#sexcivil",
+        "flex-layout.row#dir", 
+        "flex-layout.row#escolaridad",
+        "form-input.dropdown#puesto",
+        "flex-layout.row#upload",
+        "form-submit#contacto"
+      ],
+      "blocks": ["form-success#contacto"]
     },
-
+    "form-success#contacto": {
+      "children": [
+        "rich-text#successSubmit-contacto"
+      ]
+    },
+    
+    "flex-layout.row#sexcivil":{
+      "children":[    
+        "form-input.dropdown#sexo",
+        "form-input.dropdown#ecivil"
+      ],
+      "props":{
+        "blockClass": "sexcivil"
+      }
+    },
+    
+    "rich-text#successSubmit-contacto": {
+      "props": {
+        "text": "Mensaje enviado correctamente!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
     "form-input.text#nombre": {
-        "props": {
-            "pointer": "#/properties/nombre",
-            "label": "Nombre"
-        }
+      "props": {
+        "pointer": "#/properties/nombre",
+        "label": "Nombre Completo:",
+        "blockClass": "nombre"
+      }
+    },
+    "form-input.text#telcont": {
+      "props": {
+        "pointer": "#/properties/telefono",
+        "label": "Telefono de Contacto:",
+        "placeholder": "Ingrese su número a 10 dígitos",
+        "blockclass": "telcont" 
+      }
     },
     
-    "form-input.text#telefono": {
-        "props": {
-            "pointer": "#/properties/telefono",
-            "label": "Teléfono"
-        }
+    "form-input.text#correo": {
+      "props": {
+        "pointer": "#/properties/email",
+        "label": "Email:",
+        "placeholder": "ejemplo@aldoconti.com",
+        "blockClass": "correo"
+      }
     },
     
-    "form-input.text#email": {
-        "props": {
-            "pointer": "#/properties/email",
-            "label": "Email"
-        }
+    "form-input.dropdown#sexo":{
+      "props":{
+        "label": "Género:",
+        "pointer": "#/properties/sexo",
+        "blockclass": "sexo",
+        "width": "49%"
+      }
     },
-
-    "form-input.text#sexo": {
-        "props": {
-            "pointer": "#/properties/sexo",
-            "label": "Sexo"
-        }
+    "form-input.dropdown#ecivil":{
+      "props":{
+        "label": "Estado Civil:",
+        "pointer": "#/properties/ecivil",
+        "blockClass": "ecivil",
+        "width": "49%"
+      }
+    },
+    "form-submit#contacto": {
+      "props": {
+        "label": "Enviar",
+        "blockClass": "btnEnviarForm"
+      }
+    },
+    "flex-layout.row#dir":{
+      "children":[
+        "flex-layout.col#calle",
+        "flex-layout.col#no",
+        "flex-layout.col#colonia",
+        "flex-layout.col#cp"
+      ],
+      "props":{
+        "blockClass": "dir"
+      }
+    },
+    "flex-layout.col#calle":{
+      "children":[
+        "form-input.text#calle"
+      ],"props":{
+        "blockClass":"coldir",
+        "width": "24%"
+      }
+    },
+    "flex-layout.col#no":{
+      "children":[
+        "form-input.text#no"
+      ],"props":{
+        "blockClass":"coldir",
+        "width": "24%"
+      }
+    },
+    "flex-layout.col#colonia":{
+      "children":[
+        "form-input.text#colonia"
+      ],"props":{
+        "blockClass":"coldir",
+        "width": "24%"
+      }
+    },
+    "flex-layout.col#cp":{
+      "children":[
+        "form-input.text#cp"
+      ],"props":{
+        "blockClass":"coldir",
+        "width": "24%"
+      }
     },
     
-    "form-input.text#estadocivil": {
-        "props": {
-            "pointer": "#/properties/estadocivil",
-            "label": "Estado Civil"
-        }
+    "form-input.text#calle":{
+      "props": {
+        "pointer": "#/properties/calle",
+        "label":"Calle"
+      }
     },
-    
-    "form-input.text#direccion": {
-        "props": {
-            "pointer": "#/properties/direccion",
-            "label": "Dirección"
-        }
+    "form-input.text#no":{
+      "props": {
+        "pointer": "#/properties/no",
+        "label":"No."
+      }
     },
-
-    "form-input.text#escolaridad": {
+      "form-input.text#colonia":{
         "props": {
-            "pointer": "#/properties/escolaridad",
-            "label": "Escolaridad"
+          "pointer": "#/properties/colonia",
+          "label":"Colonia"
         }
-    },
-
-    "form-input.text#experiencia": {
+      },
+      "form-input.text#cp":{
         "props": {
-            "pointer": "#/properties/experiencia",
-            "label": "Experiencia"
+          "pointer": "#/properties/cp",
+          "label":"C.P."
         }
-    },
-
-    "form-input.text#puesto": {
-        "props": {
-            "pointer": "#/properties/puesto",
-            "label": "Puesto"
+      },
+      "flex-layout.row#escolaridad":{
+        "children":[
+          "form-input.dropdown#esco",
+          "form-input.dropdown#exp"
+        ],
+        "props":{
+          "blockClass": "escolaridad"
         }
-    },
-
-    "form-submit#unete": {
-        "props": {
-          "label": "Enviar"
+      },
+      "form-input.dropdown#esco":{
+        "props":{
+          "label": "Escolaridad:",
+          "pointer": "#/properties/escolaridad",
+          "width": "49%"
         }
-    }
-    
+      },
+      "form-input.dropdown#exp":{
+        "props":{
+          "label": "Experiencia:",
+          "pointer": "#/properties/experiencia",
+          "width": "49%"
+        }
+      },
+      "form-input.dropdown#puesto":{
+        "props":{
+          "label": "Puesto de interés:",
+          "pointer": "#/properties/puesto",
+          "blockClass": "puesto"
+        }
+      },
+      "flex-layout.row#upload":{
+        "children":[
+          "form-input.upload"
+        ],
+        "props":{
+          "blockClass": "upload"
+        }
+      },
+      "form-input.upload":{
+        "props":{
+          "label": "Subir C.V.",
+          "pointer": "#/properties/cv"
+        }
+    } 
 }
