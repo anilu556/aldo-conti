@@ -1,17 +1,14 @@
 {
   "store.custom#hotsale": {
     "children": [
-<<<<<<< HEAD
       "list-context.image-list#principal-slider-hotsale",
       //"video#background-temporada-rebajas",
-=======
       // "list-context.image-list#principal-slider-hotsale",
       //deshabilita video
       //"video#background-temporada-rebajas",
       //se agrega slider layout
       //correccion sass
       "slider-layout#text-test",
->>>>>>> b6f19d5e81ec0d909587af758a98728c5cdfb3d7
       "rich-text#first-title-hotsale",
       "link.product#link-first-title",
       "list-context.product-list#hotsale-products-1",
