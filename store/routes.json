@@ -53,6 +53,10 @@
   "store.custom#promo-3x999": {
     "path": "/promocion-3x899"
   },
+  "store.custom#promo-4x999": {
+    "path": "/promocion-4x899"
+  },
+  
   "store.custom#politicas-de-compra": {
     "path": "/politicas-de-compra"
   },

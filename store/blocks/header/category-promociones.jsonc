@@ -17,7 +17,8 @@
   "flex-layout.col#list1-promociones": {
     "children": [
       //"menu-item#menu-promo3de-349x999",
-      "menu-item#menu-promo3x999"
+      "menu-item#menu-promo3x999",
+      "menu-item#menu-promo4x999"
       //"menu-item#menu-promo-polos"
       // "menu-item#menu-buenfin",
       // "menu-item#menu-promociones-bancarias"
@@ -61,6 +62,21 @@
         "noFollow": false,
         "tagTitle": "Promoción 3 x $999",
         "text": "Promoción 3 x $999"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo4x999": {
+    "props": {
+      "id": "menu-item-promo4x999",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promocion-4x999",
+        "noFollow": false,
+        "tagTitle": "Promoción 4 x $999",
+        "text": "Promoción 4 x $999"
       },
       "blockClass": "link-submenu"
     }
