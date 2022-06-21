@@ -329,13 +329,6 @@ $ac-c8: #9D9D9D;
   :global(.vtex-store-components-3-x-imageElement--icon-atencionCliente-mobile) {
     margin-left: -10.6rem;
   }
-  :global(.vtex-flex-layout-0-x-flexRow--unetePage){
-    margin: 0 !important;
-  }
-  
-  :global(.vtex-flex-layout-0-x-flexRow--formUnete){
-    margin: 0 !important;
-  }
 }
 // ATENCIÓN A CLIENTE --END--
 
@@ -2026,4 +2019,15 @@ $ac-c8: #9D9D9D;
 
 :global(.vtex-menu-2-x-styledLink--uneteMenu){
   color: #ea0000 !important;
+}
+
+
+@media only screen and (max-width: 640px) {
+  :global(.vtex-flex-layout-0-x-flexRow--unetePage){
+    margin: 0 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--formUnete){
+    margin: 0 !important;
+  }
 }
