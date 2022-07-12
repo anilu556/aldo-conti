@@ -11,6 +11,10 @@
       "flex-layout.row#datatrics-home",
       "responsive-layout.desktop#home-bambu",
       "responsive-layout.mobile#home-bambu-mobile",
+
+      "rich-text#titulo-home-proms-4x999",
+      "list-context.product-list#home-home-products-4x999",
+
       "slider-layout#box-category-wraper",
       // "flex-layout.row#promo-navidad",
       "responsive-layout.desktop#mas-vendidos",
@@ -43,6 +47,13 @@
     "blocks": ["product-summary.shelf#home"],
     "children": ["slider-layout#vitrina-personalizada"]
   },
+  "list-context.product-list#home-home-products-4x999": {
+    "blocks": ["product-summary.shelf#home"],
+    "children": ["slider-layout#vitrina-personalizada"],
+    "props": {
+      "collection": "424"
+    }
+  },
   "product-summary.shelf#home": {
     "children": [
       // "vtex.product-highlights@2.x:product-highlights#segunda",
@@ -69,6 +80,15 @@
   "rich-text#titulo-home-proms": {
     "props":{
       "text": "Elige 3 por $999",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound"
+    }
+  },
+
+  "rich-text#titulo-home-proms-4x999": {
+    "props":{
+      "text": "Elige 4 por $999",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "shelftitle-notfound"
