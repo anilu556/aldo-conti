@@ -37,7 +37,8 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
-      "vtex.product-highlights@2.x:product-highlights#primera",
+      // "vtex.product-highlights@2.x:product-highlights#primera",
+      "vtex.product-highlights@2.x:product-highlights#prueba",
       // "vtex.product-highlights@2.x:product-highlights#segunda",
       "product-summary-sku-selector#shelf",
       "product-summary-name",
@@ -47,17 +48,44 @@
       "flex-layout.col#add-to-cart-shelf"
     ]
   },
-  "vtex.product-highlights@2.x:product-highlights#primera": {
-    "children": ["product-highlight-text"],
+
+  "vtex.product-highlights@2.x:product-highlights#prueba": {
+    "children": [
+      "product-highlight-text#prueba"
+    ],
     "props": {
-      "highlightNames": ["Participa en 3 x $999"],
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Participa en 3 x $999","Participa en 4 x $999"]
+      },
+      "blockClass": "prueba"
+    }
+  },
+  "product-highlight-text#prueba": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#primera": {
+    "children": [
+      "product-highlight-text"
+    ],
+    "props": {
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Participa en 3 x $999","Participa en 4 x $999"]
+      },
       "blockClass": "cucarda-primera"
     }
   },
+ 
   "vtex.product-highlights@2.x:product-highlights#tercera": {
     "children": ["product-highlight-text"],
     "props": {
-      "highlightNames": ["Top-10-Promo-3x999-Mas-Vistos"],
+      "highlightNames": [
+        "Top-10-Promo-3x999-Mas-Vistos","Participa en 4 x $999"
+      ],
       "blockClass": "cucarda-tercera"
     }
   },
@@ -70,7 +98,9 @@
   "vtex.product-highlights@2.x:product-highlights#segunda": {
     "children": ["product-highlight-text#segunda"],
     "props": {
-      "highlightNames": ["Participa en 3 x $1399"],
+      "highlightNames": [
+        "Participa en 3 x $1399"
+      ],
       "blockClass": "cucarda-segunda"
     }
   },
