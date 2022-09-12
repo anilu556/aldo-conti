@@ -30,7 +30,7 @@
             "flex-layout.row#catalogonew-desktop-7",
             "flex-layout.row#catalogonew-desktop-8",
             "flex-layout.row#catalogonew-desktop-9",
-            "flex-layout.row#catalogonew-desktop-10",
+            // "flex-layout.row#catalogonew-desktop-10",
             "flex-layout.row#catalogonew-desktop-11",
             "flex-layout.row#catalogonew-desktop-12",
             "flex-layout.row#catalogonew-desktop-13",
@@ -366,7 +366,7 @@
         "children": [
             /*"rich-text#pruebamobile",*/
             "flex-layout.row#catalogonew-mobile-1",
-            "flex-layout.row#catalogonew-mobile-2",
+            // "flex-layout.row#catalogonew-mobile-2",
             "flex-layout.row#catalogonew-mobile-3",
             "flex-layout.row#catalogonew-mobile-4",
             "flex-layout.row#catalogonew-mobile-5",
@@ -376,7 +376,7 @@
             "flex-layout.row#catalogonew-mobile-9",
             "flex-layout.row#catalogonew-mobile-10",
             "flex-layout.row#catalogonew-mobile-11",
-            "flex-layout.row#catalogonew-mobile-12",
+            // "flex-layout.row#catalogonew-mobile-12",
             "flex-layout.row#catalogonew-mobile-13",
             "flex-layout.row#catalogonew-mobile-14"
         ]

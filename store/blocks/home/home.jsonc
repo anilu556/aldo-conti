@@ -51,7 +51,7 @@
     "blocks": ["product-summary.shelf#home"],
     "children": ["slider-layout#vitrina-personalizada"],
     "props": {
-      "collection": "424"
+      "collection": "411"
     }
   },
   "product-summary.shelf#home": {
