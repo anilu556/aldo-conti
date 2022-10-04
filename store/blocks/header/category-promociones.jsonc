@@ -19,7 +19,7 @@
       //"menu-item#menu-promo3de-349x999",
       "menu-item#menu-promo3x999",
       "menu-item#menu-promo4x999",
-      "menu-item#menu-promo3x1499" // Promoción 3 x $1499
+      "menu-item#menu-promo3x1499"
       //"menu-item#menu-promo-polos"
       // "menu-item#menu-buenfin",
       // "menu-item#menu-promociones-bancarias"
@@ -286,7 +286,8 @@
     "children": [
       //"menu-item#menu-promo3de-349x999",
       "menu-item#menu-promo3x999",
-      "menu-item#menu-promo4x999"
+      "menu-item#menu-promo4x999",
+      "menu-item#menu-promo3x1499"
       //"menu-item#menu-promo-polos"
       // "menu-item#menu-buenfin",
       // "menu-item#menu-promociones-bancarias"
