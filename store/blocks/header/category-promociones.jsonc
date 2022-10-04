@@ -18,7 +18,8 @@
     "children": [
       //"menu-item#menu-promo3de-349x999",
       "menu-item#menu-promo3x999",
-      "menu-item#menu-promo4x999"
+      "menu-item#menu-promo4x999",
+      "menu-item#menu-promo3x1499" // Promoción 3 x $1499
       //"menu-item#menu-promo-polos"
       // "menu-item#menu-buenfin",
       // "menu-item#menu-promociones-bancarias"
@@ -77,6 +78,21 @@
         "noFollow": false,
         "tagTitle": "Promoción 4 x $999",
         "text": "Promoción 4 x $999"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo3x1499": {
+    "props": {
+      "id": "menu-item-promo4x999",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/426?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Promoción 3 x $1499",
+        "text": "Promoción 3 x $1499"
       },
       "blockClass": "link-submenu"
     }
