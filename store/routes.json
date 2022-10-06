@@ -81,9 +81,6 @@
   "store.custom#politica-privacidad": {
     "path": "/politicas-de-privacidad"
   },
-  "store.custom#lp-giveaway": {
-    "path": "/giveawaydiadelpadre"
-  },
   "store.custom#cookies": {
     "path": "/politicas-de-cookies"
   },
