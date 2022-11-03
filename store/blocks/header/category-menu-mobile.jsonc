@@ -40,6 +40,7 @@
       "menu-item#menu-ninos-mobile",    
       // "menu-item#menu-plancha-vapor-mobile",    
       "disclosure-layout#catalogo",
+      "menu-item#menu-sucursales-mobile", 
       // "disclosure-layout#rebajasnew",  
       "disclosure-layout#ayuda"
       //"menu-item#menu-promociones"
@@ -250,6 +251,26 @@
     }
   },
   // MENU NINOS --END--
+
+  // MENU SUCURSALES
+  "menu-item#menu-sucursales-mobile": {
+    "props": {
+      "id": "menu-item-menu-ninos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "ninos",
+        "href": "/sucursales",
+        "tagTitle": "Sucursales",
+        "text": "SUCURSALES"
+      },
+      "blockClass": [
+        "menu-sucursales"
+      ]
+    }
+  },
+  // MENU SUCURSALES --END--
   // MENU PLANCHA DE VAPOR
   "menu-item#menu-plancha-vapor-mobile": {
     "props": {
