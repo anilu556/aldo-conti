@@ -2032,7 +2032,152 @@ $ac-c8: #9D9D9D;
   }
 }
 
+
+
+
+
+
+
+/* CountDown */
+
+:global(.vtex-flex--countdown-div) {
+  margin-top: 15px;
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+  // font-family: 'Lato-Regular';
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+:global(.vtex-flex--countdown-time) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-flex--countdown-time) {
+}
+
+:global(.vtex-flex--countdown-div) :global(.vtex-flex--countdown-text) {
+  font-size: 35px;
+  // font-family: 'Lato-BlackItalic';
+  margin-right: 15px;
+  color: #0F2A65 ;
+}
+
+:global(.vtex-flex--countdownDays0),
+:global(.vtex-flex--countdownDays1),
+:global(.vtex-flex--countdownHours0),
+:global(.vtex-flex--countdownHours1),
+:global(.vtex-flex--countdownMinutes0),
+:global(.vtex-flex--countdownMinutes1),
+:global(.vtex-flex--countdownSeconds0),
+:global(.vtex-flex--countdownSeconds1) {
+  padding-top: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 7px;
+  // background: rgba(56,93,174,1);
+  background-color: #434343;
+  border-radius: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+:global(.vtex-flex--countdownSeparator) {
+  color: #292929;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-flex--countdown-time-name) {
+  padding-top: 5px;
+  font-size: 14px;
+  margin-right: 15px;
+  color: #0F2A65 !important;
+  display: flex;
+  justify-content: center;
+  // font-family: 'Lato-BlackItalic';
+  margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+  :global(.vtex-flex--countdown-div) {
+    font-size: 20px;
+  }
+
+  :global(.vtex-flex--countdown-div) :global(.vtex-flex--countdown-text) {
+    font-size: 16px;
+    // font-family: 'Lato-Regular';
+  }
+
+  :global(.vtex-flex--countdown-div) {
+    display: grid;
+  }
+
+  :global(.vtex-flex--countdown-text) {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  :global(.vtex-flex--countdown-time-name) {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+}
+  /* / CountDown */
+@media (min-width: 1026px) {
+  :global(.vtex-rich-text-0-x-container--mobile-home-shipping-text) {
+    display: none;
+  }
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex-rich-text-0-x-container--top-bar) {
+    display: none;
+  }
+}
+
+
+
 :global(.vtex-flex-layout-0-x-flexRow--images-buenfin--container)
 :global(.vtex-store-components-3-x-imageElement--image-buenfin) {
   margin: 10px !important;
 }
+
+// Banners Buen Fin 2022 
+:global(.vtex-flex-layout-0-x-flexRow--containerBuenFin) {
+  margin: 20px 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--containerBuenFin)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: calc(100% / 6) !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin1),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin2),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin3),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin4),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin5),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin6){  
+  margin: 0 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--containerBuenFinmovil2){
+  margin: 10px 0;
+}
+

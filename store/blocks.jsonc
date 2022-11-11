@@ -39,6 +39,7 @@
       "stack-layout#prodsum",
       // "vtex.product-highlights@2.x:product-highlights#primera",
       "vtex.product-highlights@2.x:product-highlights#prueba",
+      "vtex.product-highlights@2.x:product-highlights#prueba2",
       // "vtex.product-highlights@2.x:product-highlights#segunda",
       "product-summary-sku-selector#shelf",
       "product-summary-name",
@@ -63,6 +64,33 @@
     }
   },
   "product-highlight-text#prueba": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#prueba2": {
+    "children": [
+      "product-highlight-text#prueba"
+    ],
+    "props": {
+      "filter": {
+        "type": "show",
+        "highlightNames": [
+          "Flash Buen Fin",
+          "Todo a 749", 
+          "Todo a 649", 
+          "Todo a 499", 
+          "Todo a 399", 
+          "Todo a 369", 
+          "Todo a 225"
+        ]
+        // "highlightNames": ["3 x $1499"]
+      },
+      "blockClass": "prueba"
+    }
+  },
+  "product-highlight-text#prueba2": {
     "props": {
       "message": "{highlightName}"
     }
