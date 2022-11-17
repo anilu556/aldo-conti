@@ -1,22 +1,27 @@
 {
   "store.home": {
     "blocks": [
+      "rich-text#top-bar",
+      "rich-text#texto-envio-gratis",
+      "countdown",
       "responsive-layout.desktop",
       "responsive-layout.mobile",
       "rich-text#titulo-home-proms",
       "list-context.product-list#home-home-products",
       "responsive-layout.desktop#imgproms",
       "responsive-layout.mobile#imgpromsmovil",
+<<<<<<< HEAD
      // "flex-layout.row#imgproms",
   
 
+=======
+>>>>>>> 3f5409cd9e9ca5c323fb15cf389853491c7d4e76
       // "carousel#home",
       //"list-context.image-list#demo",
       //"flex-layout.row#popup-home",
       "flex-layout.row#datatrics-home",
       "responsive-layout.desktop#home-bambu",
       "responsive-layout.mobile#home-bambu-mobile",
-      "flex-layout.row#images-buenfin",
 
       "rich-text#titulo-home-proms-4x999",
       "list-context.product-list#home-home-products-4x999",
@@ -47,56 +52,6 @@
       "responsive-layout.desktop#atencion-cliente",
       "responsive-layout.mobile#atencion-cliente"
     ]
-  },
-  "flex-layout.row#images-buenfin": {
-    "children":[
-      "flex-layout.col#image1-buenfin",
-      "flex-layout.col#image2-buenfin",
-      "flex-layout.col#image3-buenfin"
-    ],
-    "props":{
-      "blockClass": "images-buenfin--container"
-    }
-  },
-  "flex-layout.col#image1-buenfin":{
-    "children":[
-      "image#image1-buenfin"
-    ]
-  },
-  "flex-layout.col#image2-buenfin":{
-    "children":[
-      "image#image2-buenfin"
-    ],
-    "props":{
-      "blockClass": "exampleee"
-    }
-  },
-  "flex-layout.col#image3-buenfin":{
-    "children":[
-      "image#image3-buenfin"
-    ]
-  },
-
-  "image#image1-buenfin": {
-    "props": {
-      "src": "/arquivos/front_cityvibes_movil.jpg",
-      "link": "/hombre/ropa/camisas/camisas-bambu?map=category-1,category-2,category-3,category-4",
-      "blockClass": ["image-buenfin", "image1-buenfin"]
-    }
-  },
-  "image#image2-buenfin": {
-    "props": {
-      "src": "/arquivos/front_cityvibes_movil.jpg",
-      "link": "/hombre/ropa/camisas/camisas-bambu?map=category-1,category-2,category-3,category-4",
-      "blockClass": ["image-buenfin", "image2-buenfin"]
-    }
-  },
-  "image#image3-buenfin": {
-    "props": {
-      "src": "/arquivos/front_cityvibes_movil.jpg",
-      "link": "/hombre/ropa/camisas/camisas-bambu?map=category-1,category-2,category-3,category-4",
-      "blockClass": ["image-buenfin", "image3-buenfin"]
-    }
   },
 
   "list-context.product-list#home-home-products": {
@@ -291,7 +246,8 @@
   },
   "responsive-layout.desktop": {
     "children": [
-      "rich-text#top-bar",
+      // "rich-text#top-bar",
+      "countdown",
       "list-context.image-list#principal-slider-desk"
       // "flex-layout.row#video-banner-home"
     ]
@@ -366,7 +322,7 @@
   },
   "responsive-layout.mobile": {
     "children": [
-      "rich-text#texto-envio-gratis",
+      // "rich-text#texto-envio-gratis",
       "list-context.image-list#demo"
     ]
   },

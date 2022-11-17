@@ -179,7 +179,7 @@
   },
   "rich-text#to-checkout": {
     "props":{
-      "text": "[Comprar](/checkout#/payment)",
+      "text": "[Comprar](/checkout/#/orderform)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "co-white-btn-inside"
