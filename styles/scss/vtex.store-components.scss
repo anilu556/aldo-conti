@@ -2036,3 +2036,30 @@ $ac-c8: #9D9D9D;
 :global(.vtex-store-components-3-x-imageElement--image-buenfin) {
   margin: 10px !important;
 }
+
+// Banners Buen Fin 2022 
+:global(.vtex-flex-layout-0-x-flexRow--containerBuenFin) {
+  margin: 20px 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--containerBuenFin)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: calc(100% / 6) !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin1),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin2),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin3),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin4),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin5),
+:global(.vtex-flex-layout-0-x-flexCol--columBuenFin6){  
+  margin: 0 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--containerBuenFinmovil2){
+  margin: 10px 0;
+}
+:global(.vtex-search-result-3-x-galleryItem--normal)
+:global(.vtex-product-summary-2-x-containerNormal){
+        min-width: 206px;
+}

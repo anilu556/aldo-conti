@@ -328,6 +328,7 @@
       "menu-item#menu-llaveros",
       "menu-item#menu-loncheras",
       "menu-item#menu-maletas-maletines",
+      "menu-item#menu-lustra-zapatos",
       "menu-item#menu-mancuernillas",
       "menu-item#menu-mono-panuelo",
       "menu-item#menu-panuelos",
@@ -352,6 +353,22 @@
       },
       "blockClass": "link-submenu"
     }
+  },
+  "menu-item#menu-lustra-zapatos": {
+    "props": {
+      "id": "menu-item-menu-lustra-zapatos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/lustra-zapatos/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Lustra Zapatos",
+        "text": "Lustra Zapatos"
+      },
+      "blockClass": "link-submenu"
+    }
+    
   },
   "menu-item#menu-loncheras": {
     "props": {

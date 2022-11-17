@@ -56,7 +56,7 @@
     "props": {
       "filter": {
         "type": "show",
-        "highlightNames": ["Participa en 3 x $999", "Participa en 4 x $999", "3 x $1499"]
+        "highlightNames": ["Participa en 3 x $999", "Participa en 4 x $999", "3 x $1499", "Todo a 649"]
         // "highlightNames": ["3 x $1499"]
       },
       "blockClass": "prueba"
@@ -75,7 +75,7 @@
     "props": {
       "filter": {
         "type": "show",
-        "highlightNames": ["Participa en 3 x $999","Participa en 4 x $999","3 x $1499"]
+        "highlightNames": ["Participa en 3 x $999","Participa en 4 x $999","3 x $1499", "Todo a 649"]
       },
       "blockClass": "cucarda-primera"
     }
@@ -85,7 +85,7 @@
     "children": ["product-highlight-text"],
     "props": {
       "highlightNames": [
-        "Top-10-Promo-3x999-Mas-Vistos","Participa en 4 x $999","3 x $1499"
+        "Top-10-Promo-3x999-Mas-Vistos","Participa en 4 x $999","3 x $1499", "Todo a 649"
       ],
       "blockClass": "cucarda-tercera"
     }

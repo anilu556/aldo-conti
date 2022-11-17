@@ -21,6 +21,6 @@
   "homepage": "https://bitbucket.org/corebiz_ag/aldoconti#readme",
   "dependencies": {
     "node-sass": "^7.0.1",
-    "sass": "^1.52.1"
+    "sass": "^1.56.0"
   }
 }

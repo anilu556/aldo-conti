@@ -1403,10 +1403,10 @@
     "scss-tokenizer" "^0.3.0"
     "yargs" "^17.2.1"
 
-"sass@^1.52.1":
-  "integrity" "sha512-fSzYTbr7z8oQnVJ3Acp9hV80dM1fkMN7mSD/25mpcct9F7FPBMOI8krEYALgU1aZoqGhQNhTPsuSmxjnIvAm4Q=="
-  "resolved" "https://registry.npmjs.org/sass/-/sass-1.52.1.tgz"
-  "version" "1.52.1"
+"sass@^1.56.0":
+  "integrity" "sha512-WFJ9XrpkcnqZcYuLRJh5qiV6ibQOR4AezleeEjTjMsCocYW59dEG19U3fwTTXxzi2Ed3yjPBp727hbbj53pHFw=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.56.0.tgz"
+  "version" "1.56.0"
   dependencies:
     "chokidar" ">=3.0.0 <4.0.0"
     "immutable" "^4.0.0"

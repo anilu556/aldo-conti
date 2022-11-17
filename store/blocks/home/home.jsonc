@@ -5,6 +5,11 @@
       "responsive-layout.mobile",
       "rich-text#titulo-home-proms",
       "list-context.product-list#home-home-products",
+      "responsive-layout.desktop#imgproms",
+      "responsive-layout.mobile#imgpromsmovil",
+     // "flex-layout.row#imgproms",
+  
+
       // "carousel#home",
       //"list-context.image-list#demo",
       //"flex-layout.row#popup-home",
@@ -1253,5 +1258,245 @@
       },
       "infinite": false
     }    
-  }
+  },
+  "responsive-layout.desktop#imgproms":{
+    "title":"promociones version desktop",
+    "children":[
+      "flex-layout.row#imgproms"
+    ] 
+  },
+  "flex-layout.row#imgproms":{
+    "children":[
+      "flex-layout.col#imgproms1",
+      "flex-layout.col#imgproms2",
+      "flex-layout.col#imgproms3",
+      "flex-layout.col#imgproms4",
+      "flex-layout.col#imgproms5",
+      "flex-layout.col#imgproms6"
+    ],"props":{
+      "blockClass":"containerBuenFin"
+    }
+  },
+  "flex-layout.col#imgproms1":{
+    "children":[
+      "image#imagen1"
+    ], "props":{
+      "blockClass":["columBuenFin", "columBuenFin1"]
+    }
+  },
+  "image#imagen1":{
+    "props":{
+      "src":"assets/home-banner/06.png",
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "flex-layout.col#imgproms2":{
+    "children":[
+      "image#imagen2"
+    ], "props":{
+      "blockClass":["columBuenFin", "columBuenFin2"]
+    }
+  },
+  "image#imagen2":{
+    "props":{
+      "src":"assets/home-banner/07.png",
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "flex-layout.col#imgproms3":{
+    "children":[
+      "image#imagen3"
+    ], "props":{
+      "blockClass":["columBuenFin", "columBuenFin3"]
+    }
+  },
+  "image#imagen3":{
+    "props":{
+      "src":"assets/home-banner/08.png",
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "flex-layout.col#imgproms4":{
+    "children":[
+      "image#imagen4"
+    ], "props":{
+      "blockClass":["columBuenFin", "columBuenFin4"]
+    }
+  },
+  "image#imagen4":{
+    "props":{
+      "src":"assets/home-banner/09.png",
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "flex-layout.col#imgproms5":{
+    "children":[
+      "image#imagen5"
+    ], "props":{
+      "blockClass":["columBuenFin", "columBuenFin5"]
+    }
+  },
+  "image#imagen5":{
+    "props":{
+      "src":"assets/home-banner/10.png",
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "flex-layout.col#imgproms6":{
+    "children":[
+      "image#imagen6"
+    ], "props":{
+      "blockClass":["columBuenFin", "columBuenFin6"]
+    }
+  },
+  "image#imagen6":{
+    "props":{
+      "src":"assets/home-banner/14.png",
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+
+  //Buen fin movil banners
+
+  "responsive-layout.mobile#imgpromsmovil":{
+    "title":"promociones version desktop movil",
+    "children":[
+      "flex-layout.row#imgpromsmovil",
+      "flex-layout.row#imgpromsmovil2",
+      "flex-layout.row#imgpromsmovil3"
+    ] 
+  },
+  "flex-layout.row#imgpromsmovil":{
+    "children":[
+      "flex-layout.col#imgpromsmovil1",
+      "flex-layout.col#imgpromsmovil2"
+      ],"props":{
+        "preserveLayoutOnMobile": true,
+        "blockClass":"containerBuenFinmovil"
+      }
+    },
+    "flex-layout.col#imgpromsmovil1":{
+      "children":[
+        "image#imagenmovil1"
+      ], "props":{
+        "width":"50%",
+        "blockClass":["columBuenFinmovil", "columBuenFinmovil1"]
+      }
+    },
+    "image#imagenmovil1":{
+      "props":{
+        "src":"assets/home-banner/06movil.png",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+    "flex-layout.col#imgpromsmovil2":{
+      "children":[
+        "image#imagenmovil2"
+      ], "props":{
+        "width":"50%",
+        "blockClass":["columBuenFinmovil", "columBuenFinmovil2"]
+      }
+    },
+    "image#imagenmovil2":{
+      "props":{
+        "src":"assets/home-banner/07movil.png",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+    "flex-layout.row#imgpromsmovil2":{
+      "children":[
+        "flex-layout.col#imgpromsmovil3",
+        "flex-layout.col#imgpromsmovil4"
+        ],"props":{
+          "preserveLayoutOnMobile": true,
+          "blockClass":"containerBuenFinmovil2"
+        }
+      },
+      "flex-layout.col#imgpromsmovil3":{
+        "children":[
+          "image#imagenmovil3"
+        ], "props":{
+          "width":"50%",
+          "blockClass":["columBuenFinmovil", "columBuenFinmovil3"]
+        }
+      },
+      "image#imagenmovil3":{
+        "props":{
+          "src":"assets/home-banner/08movil.png",
+          "link":""
+        }
+      },
+      "flex-layout.col#imgpromsmovil4":{
+        "children":[
+          "image#imagenmovil4"
+        ], "props":{
+          "width":"50%",
+          "blockClass":["columBuenFinmovil", "columBuenFinmovil4"]
+        }
+      },
+      "image#imagenmovil4":{
+        "props":{
+          "src":"assets/home-banner/09movil.png",
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "flex-layout.row#imgpromsmovil3":{
+        "children":[
+          "flex-layout.col#imgpromsmovil5",
+          "flex-layout.col#imgpromsmovil6"
+          ],"props":{
+            "preserveLayoutOnMobile": true,
+            "blockClass":"containerBuenFinmovil3"
+          }
+        },
+        "flex-layout.col#imgpromsmovil5":{
+          "children":[
+            "image#imagenmovil5"
+          ], "props":{
+            "width":"50%",
+            "blockClass":["columBuenFinmovil", "columBuenFinmovil5"]
+          }
+        },
+        "image#imagenmovil5":{
+          "props":{
+            "src":"assets/home-banner/10movil.png",
+            "link":{
+              "url":"/"
+            }
+          }
+        },
+        "flex-layout.col#imgpromsmovil6":{
+          "children":[
+            "image#imagenmovil6"
+          ], "props":{
+            "width":"50%",
+            "blockClass":["columBuenFinmovil", "columBuenFinmovil6"]
+          }
+        },
+        "image#imagenmovil6":{
+          "props":{
+            "src":"assets/home-banner/11movil.png",
+            "link":{
+              "url":"/"
+            }
+          }
+        }
 }
