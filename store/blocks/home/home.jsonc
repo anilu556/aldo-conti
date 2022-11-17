@@ -10,12 +10,11 @@
       "list-context.product-list#home-home-products",
       "responsive-layout.desktop#imgproms",
       "responsive-layout.mobile#imgpromsmovil",
-<<<<<<< HEAD
+
      // "flex-layout.row#imgproms",
   
 
-=======
->>>>>>> 3f5409cd9e9ca5c323fb15cf389853491c7d4e76
+
       // "carousel#home",
       //"list-context.image-list#demo",
       //"flex-layout.row#popup-home",
