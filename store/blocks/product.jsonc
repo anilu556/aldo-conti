@@ -133,10 +133,11 @@
       "product-rating-summary",
       "responsive-layout.desktop#product-price",      
       "responsive-layout.desktop#product-quantity-and-buy-button",      
-      // "product-separator",      
-      "responsive-layout.desktop#attribute-selector",
-      "responsive-layout.mobile#product-price",      
-      "responsive-layout.mobile#couple-btns",
+      // "product-separator",
+      "condition-layout.product#condicion-cat-monios",     
+      /*"responsive-layout.desktop#attribute-selector",*/
+      "responsive-layout.mobile#product-price",     
+      "condition-layout.product#condicion-mobile-cat-monios",
       "responsive-layout.mobile#model-mobile",
       "responsive-layout.mobile#stock-counter",
       "responsive-layout.mobile#pieces-selector",
@@ -148,7 +149,42 @@
       //"responsive-layout.desktop#model-guide"      
     ]
   },
+  "condition-layout.product#condicion-cat-monios"
+  :{
+    "props": {
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "ids": 116
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#just-for-this-category-or-department",
+      "Else": "responsive-layout.desktop#attribute-selector"
+    }
+  },
+  "flex-layout.row#just-for-this-category-or-department":{
 
+  },
+
+"condition-layout.product#condicion-mobile-cat-monios"
+:{
+  "props": {
+    "conditions": [
+      {
+        "subject": "categoryId",
+        "arguments": {
+          "ids": 116
+        }
+      }
+    ],
+    "matchType": "any",
+    "Then": "flex-layout.row#just-for-this-category-or-department",
+    "Else": "responsive-layout.mobile#couple-btns"
+  }
+},
 
   /********aqui va lo que se esta tranajando*******/
   "responsive-layout.desktop#attribute-selector": {
