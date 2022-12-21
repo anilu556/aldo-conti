@@ -14,7 +14,7 @@
       "context": {
         "skusFilter": "ALL",
         "maxItemsPerPage": 21,
-        "simulationBehavior": "skip"
+        "simulationBehavior": "default"
       }
     }
   },
@@ -100,7 +100,7 @@
         "__unstableProductOriginVtex": true,
         "skusFilter": "ALL",
         "maxItemsPerPage": 21,
-        "simulationBehavior": "skip",
+        "simulationBehavior": "default",
         "installmentCriteria": "MAX_WITHOUT_INTEREST"
       },
 
@@ -125,7 +125,7 @@
         "__unstableProductOriginVtex": true,
         "skusFilter": "ALL",
         "maxItemsPerPage": 21,
-        "simulationBehavior": "skip",
+        "simulationBehavior": "default",
         "installmentCriteria": "MAX_WITHOUT_INTEREST"
       },
 

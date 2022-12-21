@@ -77,8 +77,9 @@
       "filter": {
         "type": "show",
         "highlightNames": [
+          "Todo a 279",
           // "Flash Buen Fin",
-          "Todo a 749", 
+          "Todo a 699", 
           "Todo a 649", 
           "Todo a 499", 
           "Todo a 399", 
