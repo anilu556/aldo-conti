@@ -234,7 +234,8 @@
       "image#fb-ds",
       "image#ig-ds",
       "image#tw-ds",
-      "image#yt-ds"
+      "image#yt-ds",
+      "image#tk-ds"
     ],
     "props": {
       "textAlignment": "center",

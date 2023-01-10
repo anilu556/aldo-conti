@@ -471,7 +471,8 @@
       "image#fb-ds",
       "image#ig-ds",
       "image#tw-ds",
-      "image#yt-ds"
+      "image#yt-ds",
+      "image#tk-ds"
     ]
   },
 
@@ -512,6 +513,14 @@
       "link": "https://www.youtube.com/user/sistemasaldoconti",
       "src": "/arquivos/yt2x.png",
       "maxHeight": 24
+    }
+  },
+  "image#tk-ds": {
+    "props": {
+      "link": "https://www.tiktok.com/@aldocontimx?_t=8Ytff81h8Yo&_r=1",
+      "src": "assets/icons-svg/tik-tok.svg",
+      "maxHeight": 24,
+      "blockClass": "tik-tok-logo"
     }
   },
 
